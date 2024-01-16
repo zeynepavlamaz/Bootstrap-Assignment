@@ -1,0 +1,55 @@
+/* style.css */
+
+/* Navbar Stili */
+.navbar-purpletext {
+    color: #d60141 !important; /* Navbar metin rengini mor yap */
+}
+
+/* Genel Renkler */
+.color-darkyellow {
+    color: #d6b601; /* Koyu sarı rengi */
+}
+
+.color-purple {
+    color: purple; /* Mor renk */
+}
+
+/* Arka Plan Rengi */
+.bg {
+    background-color: #E9ECEF; /* Arka plan rengi */
+}
+
+/* Ürün Kartları */
+.ürünler-font-size {
+    font-size: 14px; /* Ürün kartlarındaki metin boyutu */
+}
+
+.card {
+    border: none; /* Kart kenarlığını kaldır */
+    margin-bottom: 20px; /* Kartlar arasındaki boşluğu ayarla */
+}
+
+.card-title {
+    margin-top: 10px; /* Kart başlığı ile içerik arasındaki boşluğu ayarla */
+}
+
+.pill {
+    background-color: #d60141; /* Yuvarlak etiket arka plan rengi */
+    color: #fff; /* Yuvralak etiket metin rengi */
+}
+
+/* Hakkımızda Kartı */
+.card-header {
+    background-color: #d60141; /* Hakkımızda kart başlığı arka plan rengi */
+}
+
+.card-body {
+    padding: 20px; /* Kart içeriği içindeki boşluğu ayarla */
+}
+
+/* Responsive düzenleme */
+@media (max-width: 576px) {
+    .navbar-purpletext {
+        font-size: 18px; /* Küçük ekranlarda navbar metin boyutu */
+    }
+}
